@@ -6,7 +6,14 @@
 
 /* betty style doc for function main goes there */
 
-/*  main - Entry point */
+/**
+ * main - Entry point
+ * Return is positive if the number is greater than 0
+ * Return is zero if the number is 0
+ * Return is negative if the number is less than 0
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
