@@ -7,9 +7,11 @@
 
 /**
  * main - Entry point
- * Return if the last digit of n is greater than 5: the string and is greater than 5
+ * Return if the last digit of n is greater than 5:
+ * the string and is greater than 5
  * if the last digit of n is 0: the string and is 0
- * if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
+ * if the last digit of n is less than 6 and not 0:
+ * the string and is less than 6 and not 0
  * Return: Always 0 (Success)
  */
 
@@ -31,17 +33,17 @@ int main(void)
 		if (r > 5)
 			printf("Last digit of %d is %d and is greater than 5\n", n, r);
 		else if (r == 0)
-                        printf("Last digit of %d is %d and is 0\n", n, r);
+			printf("Last digit of %d is %d and is 0\n", n, r);
 		else if (r < 6)
 			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, r);
 	}
 	else
 	{
 		r = (-1 * n) % 10;
-                while (r > 10)
-                {
-                        r = r % 10;
-                }
+		while (r > 10)
+		{
+			r = r % 10;
+		}
 		r = -1 * r;
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, r);
 	}
