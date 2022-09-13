@@ -1,7 +1,11 @@
 #include<stdio.h>
 
-/*  print_alphabet to print abcdefghijklmnopqrstuvwxyz */
-
+/**
+ * print_alphabet to print abcdefghijklmnopqrstuvwxyz
+ * print_alphabet to print abcdefghijklmnopqrstuvwxyz
+ * voidprint_alphabet to print abcdefghijklmnopqrstuvwxyz
+ * void print_alphabet to print abcdefghijklmnopqrstuvwxyz
+ */
 void print_alphabet(void)
 {
 	/*  print_alphabet to print abcdefghijklmnopqrstuvwxyz */
