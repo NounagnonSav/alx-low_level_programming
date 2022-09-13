@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 /**
- * print_alphabet to print abcdefghijklmnopqrstuvwxyz
- * print_alphabet to print abcdefghijklmnopqrstuvwxyz
- * voidprint_alphabet to print abcdefghijklmnopqrstuvwxyz
- * void print_alphabet to print abcdefghijklmnopqrstuvwxyz
+ * print_alphabet - Entry point
+ * print_alphabet - print abcdefghijklmnopqrstuvwxyz
+ * Return program that prints the alphabet in lowercase, using putchar
+ * Return: Void
  */
 void print_alphabet(void)
 {
