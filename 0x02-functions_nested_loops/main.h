@@ -2,5 +2,6 @@
 #define MYHEADER_H_
 
 extern int _putchar(char);
+extern void print_alphabet(void);
 
 #endif
