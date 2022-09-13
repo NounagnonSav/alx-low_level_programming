@@ -3,5 +3,6 @@
 
 extern int _putchar(char);
 extern void print_alphabet(void);
+extern void print_alphabet_x10(void);
 
 #endif
