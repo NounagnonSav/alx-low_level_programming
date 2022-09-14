@@ -9,5 +9,6 @@ extern int _isalpha(int);
 extern int print_sign(int);
 extern int _abs(int);
 extern int print_last_digit(int);
+extern void jack_bauer(void);
 
 #endif
