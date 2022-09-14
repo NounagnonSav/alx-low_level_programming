@@ -10,7 +10,8 @@
  */
 int _islower(int c)
 {
-	/*  print_alphabet to print abcdefghijklmnopqrstuvwxyz */
+	/* parameter c - is a char */
+	/* parameter int c - is a char */
 	if (islower(c))
 		return (1);
 	else
