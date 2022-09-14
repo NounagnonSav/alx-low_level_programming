@@ -5,10 +5,7 @@
  * _islower - that checks for lowercase character
  * Return program that prints the alphabet in lowercase, using putchar
  * Return: Void
- * parameter c - is char
- * c - is char
- * member c - int char
- * int c - an the char
+ *  @c: The character to checks for lowercase character
  */
 int _islower(int c)
 {
