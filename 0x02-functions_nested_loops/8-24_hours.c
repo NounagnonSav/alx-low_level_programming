@@ -12,6 +12,7 @@ void jack_bauer(void)
 	int i;
 	/* munite */
 	int j;
+	/* munite */
 	for (i = 0 ; i < 24 ; i++)
 	{
 		for (j = 0 ; j < 60 ; j++)
