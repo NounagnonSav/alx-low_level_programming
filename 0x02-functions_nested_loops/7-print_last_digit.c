@@ -10,8 +10,8 @@
  */
 int print_last_digit(int c)
 {
-	c = abs(c);
-	c = c % 10;
-	_putchar('0' + c);
-	return (c);
+	int r;
+	r = abs(c);
+	_putchar('0' + r % 10);
+	return (r % 10);
 }
