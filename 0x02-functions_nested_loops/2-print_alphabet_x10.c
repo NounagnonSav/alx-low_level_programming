@@ -12,6 +12,7 @@ void print_alphabet_x10(void)
 	char ch;
 	/*  print_alphabet to print abcdefghijklmnopqrstuvwxyz */
 	int i;
+	/*  print_alphabet to print abcdefghijklmnopqrstuvwxyz */
 	for (i = 0 ; i < 10 ; i++)
 	{
 		for (ch = 'a' ; ch <= 'z' ; ch++)
@@ -20,5 +21,4 @@ void print_alphabet_x10(void)
 		}
 		putchar('\n');
 	}
-	putchar(' ');
 }
