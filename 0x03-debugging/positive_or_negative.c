@@ -11,7 +11,7 @@
  * Return is positive if the number is greater than 0
  * Return is zero if the number is 0
  * Return is negative if the number is less than 0
- * n@: input value
+ * @n: input value
  */
 
 void positive_or_negative(int n)
