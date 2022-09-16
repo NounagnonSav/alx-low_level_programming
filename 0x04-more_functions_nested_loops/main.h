@@ -3,5 +3,6 @@
 
 extern int _putchar(char);
 extern int _isupper(int c);
+extern int _isdigit(int c);
 
 #endif
