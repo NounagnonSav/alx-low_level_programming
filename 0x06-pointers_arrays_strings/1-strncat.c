@@ -2,15 +2,16 @@
 #include <string.h>
 
 /**
- * _strcat - Entry point
- * _strcat - that checks for lowercase character
+ * _strncat - Entry point
+ * _strncat - that checks for lowercase character
  * Return program that prints the alphabet in lowercase, using putchar
  * Return: char concat
  * @src: The character to checks for lowercase character
  * @dest: The character to checks for lowercase character
+ * @n: The character to checks for lowercase character
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	return strcat( dest, src );	
+	return strncat( dest, src, n);
 }
